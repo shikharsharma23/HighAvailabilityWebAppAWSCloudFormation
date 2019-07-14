@@ -1,0 +1,5 @@
+./create-stack.sh  network-stack network.yml network-parameters.json
+./create-stack.sh  server-stack servers.yml server-parameters.json
+./delete-stack.sh network-stack
+./delete-stack.sh server-stack
+./update-stack.sh  server-stack servers.yml server-parameters.json
